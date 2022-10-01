@@ -153,7 +153,7 @@ public class createJPanel extends javax.swing.JPanel {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(btnsave)
-                .addGap(236, 236, 236))
+                .addGap(277, 277, 277))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -203,9 +203,9 @@ public class createJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblemail)
                     .addComponent(txtemail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
                 .addComponent(btnsave)
-                .addContainerGap(32, Short.MAX_VALUE))
+                .addGap(14, 14, 14))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -251,7 +251,7 @@ public class createJPanel extends javax.swing.JPanel {
         emp.setCellPhone(cellphone);
         emp.setEmail(email);
         
-        JOptionPane.showMessageDialog(this, "New Employee Details Added.");
+        JOptionPane.showMessageDialog(this, "New Employee Added.");
         
         txtname.setText("");
         txtemployeeid.setText("");
