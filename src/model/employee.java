@@ -13,11 +13,11 @@ public class employee {
     private int employeeID;
     private int age;
     private String gender;
-    private int startdate;
+    private String startdate;
     private String level;
     private String teaminfo;
     private String positiontitle;
-    private int cellphone;
+    private String cellphone;
     private String email;
 
     public String getName() {
@@ -98,6 +98,14 @@ public class employee {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public void setStartDate(String startdate) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public void setCellPhone(String cellphone) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     

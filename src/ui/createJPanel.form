@@ -51,7 +51,7 @@
                           <Component id="txtgender" alignment="0" max="32767" attributes="0"/>
                           <Component id="txtage" alignment="0" max="32767" attributes="0"/>
                           <Component id="txtemployeeid" alignment="0" max="32767" attributes="0"/>
-                          <Component id="txxtname" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtname" alignment="0" max="32767" attributes="0"/>
                           <Component id="txtemail" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -74,7 +74,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="Iblname" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txxtname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtname" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -196,9 +196,9 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txxtname">
+    <Component class="javax.swing.JTextField" name="txtname">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txxtnameActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtnameActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txtemployeeid">
@@ -232,6 +232,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Save"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsaveActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

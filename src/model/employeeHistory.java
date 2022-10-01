@@ -26,4 +26,11 @@ public class employeeHistory {
         this.history = history;
     }
     
+    public employee addNewEmployee(){
+        
+        employee newEmployee = new employee();
+        history.add(newEmployee);
+        return newEmployee;
+        
+    }
 }

@@ -4,6 +4,8 @@
  */
 package ui;
 
+import javax.swing.JOptionPane;
+import model.employee;
 import model.employeeHistory;
 
 /**
@@ -42,7 +44,7 @@ public class createJPanel extends javax.swing.JPanel {
         lblcellphonenumber = new javax.swing.JLabel();
         lblemail = new javax.swing.JLabel();
         lblemployeedetails = new javax.swing.JLabel();
-        txxtname = new javax.swing.JTextField();
+        txtname = new javax.swing.JTextField();
         txtemployeeid = new javax.swing.JTextField();
         txtage = new javax.swing.JTextField();
         txtgender = new javax.swing.JTextField();
@@ -78,9 +80,9 @@ public class createJPanel extends javax.swing.JPanel {
         lblemployeedetails.setText("                                               Employee Details");
         lblemployeedetails.setSize(new java.awt.Dimension(42, 25));
 
-        txxtname.addActionListener(new java.awt.event.ActionListener() {
+        txtname.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txxtnameActionPerformed(evt);
+                txtnameActionPerformed(evt);
             }
         });
 
@@ -103,6 +105,11 @@ public class createJPanel extends javax.swing.JPanel {
         });
 
         btnsave.setText("Save");
+        btnsave.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnsaveActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -138,7 +145,7 @@ public class createJPanel extends javax.swing.JPanel {
                             .addComponent(txtgender, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(txtage, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(txtemployeeid, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txxtname, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txtname, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(txtemail))
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(lblemployeedetails, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 622, Short.MAX_VALUE))
@@ -155,7 +162,7 @@ public class createJPanel extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Iblname)
-                    .addComponent(txxtname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(IblemployeeID)
@@ -202,9 +209,9 @@ public class createJPanel extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txxtnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txxtnameActionPerformed
+    private void txtnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnameActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txxtnameActionPerformed
+    }//GEN-LAST:event_txtnameActionPerformed
 
     private void txtageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtageActionPerformed
         // TODO add your handling code here:
@@ -217,6 +224,47 @@ public class createJPanel extends javax.swing.JPanel {
     private void txtpositiontitleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtpositiontitleActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtpositiontitleActionPerformed
+
+    private void btnsaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsaveActionPerformed
+        // TODO add your handling code here:
+        
+        String name = txtname.getText();
+        int employeeID = Integer.parseInt(txtemployeeid.getText());
+        int age = Integer.parseInt(txtage.getText());
+        String gender = txtgender.getText();
+        String startdate = txtstartdate.getText();
+        String level = txtlevel.getText();
+        String teaminfo = txtteaminfo.getText();
+        String positiontitle = txtpositiontitle.getText();
+        String cellphone = txtcellphonenumber.getText();
+        String email = txtemail.getText();
+        
+        employee emp = history.addNewEmployee();
+        
+        emp.setName(name);
+        emp.setEmployeeID(employeeID);
+        emp.setAge(age);
+        emp.setGender(gender);
+        emp.setStartDate(startdate);
+        emp.setTeaminfo(teaminfo);
+        emp.setPositiontitle(positiontitle);
+        emp.setCellPhone(cellphone);
+        emp.setEmail(email);
+        
+        JOptionPane.showMessageDialog(this, "New Employee Details Added.");
+        
+        txtname.setText("");
+        txtemployeeid.setText("");
+        txtage.setText("");
+        txtgender.setText("");
+        txtstartdate.setText("");
+        txtlevel.setText("");
+        txtteaminfo.setText("");
+        txtpositiontitle.setText("");
+        txtcellphonenumber.setText("");
+        txtemail.setText("");
+   
+    }//GEN-LAST:event_btnsaveActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -238,9 +286,9 @@ public class createJPanel extends javax.swing.JPanel {
     private javax.swing.JTextField txtemployeeid;
     private javax.swing.JTextField txtgender;
     private javax.swing.JTextField txtlevel;
+    private javax.swing.JTextField txtname;
     private javax.swing.JTextField txtpositiontitle;
     private javax.swing.JTextField txtstartdate;
     private javax.swing.JTextField txtteaminfo;
-    private javax.swing.JTextField txxtname;
     // End of variables declaration//GEN-END:variables
 }
