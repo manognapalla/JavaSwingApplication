@@ -4,6 +4,8 @@
  */
 package ui;
 
+import model.employeeHistory;
+
 /**
  *
  * @author riddhivora
@@ -13,8 +15,13 @@ public class ViewJPanel extends javax.swing.JPanel {
     /**
      * Creates new form ViewJPanel
      */
-    public ViewJPanel() {
+    
+    employeeHistory history;
+    
+    public ViewJPanel(employeeHistory history) {
         initComponents();
+        this.history = history;
+        
     }
 
     /**
@@ -26,19 +33,61 @@ public class ViewJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        lblemployeedetails = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
+
+        lblemployeedetails.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        lblemployeedetails.setText("                                                       View Employee Details");
+        lblemployeedetails.setSize(new java.awt.Dimension(42, 25));
+
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null}
+            },
+            new String [] {
+                "Name", "EmployeeID", "Age", "Gender", "Start Date", "Level", "Team Info", "Position Title", "Cell Phone", "Email"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane1.setViewportView(jTable1);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 406, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jScrollPane1)
+                    .addComponent(lblemployeedetails, javax.swing.GroupLayout.DEFAULT_SIZE, 778, Short.MAX_VALUE))
+                .addGap(16, 16, 16))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 316, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(lblemployeedetails, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 357, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(374, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTable jTable1;
+    private javax.swing.JLabel lblemployeedetails;
     // End of variables declaration//GEN-END:variables
 }
