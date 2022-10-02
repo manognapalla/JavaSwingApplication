@@ -100,16 +100,26 @@ public class employee {
         this.email = email;
     }
 
-    public void setCellPhone(String cellphone) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void setStartDate(String startdate) {
+       
     }
 
-    public void setStartDate(String startdate) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void setCellPhone(String cellphone) {
+      
     }
 
    
+    @Override
+    public String toString(){
+      return name;
+  }
 
-    
+    public Object getstartdate() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public Object getcellphone() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }

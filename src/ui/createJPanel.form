@@ -16,12 +16,40 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblemployeedetails" pref="788" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblemail" min="-2" pref="116" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="txtemail" min="-2" pref="427" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="lblcellphonenumber" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lblContactinfo" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="txtcellphonenumber" min="-2" pref="427" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="140" max="-2" attributes="0"/>
+          </Group>
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="116" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="lblcellphonenumber" min="-2" max="-2" attributes="0"/>
                           <Component id="lblposition" min="-2" max="-2" attributes="0"/>
                           <Component id="lblteaminfo" min="-2" max="-2" attributes="0"/>
                           <Component id="Ibllevel" min="-2" max="-2" attributes="0"/>
@@ -29,13 +57,11 @@
                           <Component id="Iblgender" min="-2" max="-2" attributes="0"/>
                           <Component id="IblAge" min="-2" max="-2" attributes="0"/>
                           <Component id="IblemployeeID" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblemail" alignment="1" min="-2" pref="116" max="-2" attributes="0"/>
                           <Component id="Iblname" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="txtcellphonenumber" alignment="0" pref="427" max="32767" attributes="0"/>
-                          <Component id="txtpositiontitle" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtpositiontitle" alignment="0" pref="427" max="32767" attributes="0"/>
                           <Component id="txtteaminfo" alignment="0" max="32767" attributes="0"/>
                           <Component id="txtlevel" alignment="0" max="32767" attributes="0"/>
                           <Component id="txtstartdate" alignment="0" max="32767" attributes="0"/>
@@ -43,17 +69,13 @@
                           <Component id="txtage" alignment="0" max="32767" attributes="0"/>
                           <Component id="txtemployeeid" alignment="0" max="32767" attributes="0"/>
                           <Component id="txtname" alignment="0" max="32767" attributes="0"/>
-                          <Component id="txtemail" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
-                  <Component id="lblemployeedetails" alignment="1" pref="794" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="259" max="-2" attributes="0"/>
+                      <Component id="btnsave" min="-2" max="-2" attributes="0"/>
+                  </Group>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="283" max="-2" attributes="0"/>
-              <Component id="btnsave" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -62,7 +84,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Component id="lblemployeedetails" min="-2" pref="57" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Component id="txtname" max="32767" attributes="0"/>
                   <Component id="Iblname" max="32767" attributes="0"/>
@@ -107,18 +129,20 @@
                   <Component id="txtpositiontitle" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="lblcellphonenumber" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtcellphonenumber" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
+              <Component id="lblContactinfo" min="-2" pref="31" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="lblemail" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtemail" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtcellphonenumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblcellphonenumber" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtemail" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblemail" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="btnsave" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="249" max="32767" attributes="0"/>
+              <EmptySpace pref="261" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -224,6 +248,11 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsaveActionPerformed"/>
       </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblContactinfo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Contact Information:"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
