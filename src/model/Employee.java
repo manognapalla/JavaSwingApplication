@@ -8,7 +8,7 @@ package model;
  *
  * @author manognapallapothu
  */
-public class Product {
+public class Employee {
     
     
     private String name;
@@ -25,7 +25,7 @@ public class Product {
     public String getName() {
         return name;
     }
-
+//
     public void setName(String name) {
         this.name = name;
     }
