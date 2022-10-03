@@ -6,7 +6,7 @@ package model;
 
 /**
  *
- * @author riddhivora
+ * @author manognapalla
  */
 public class Profile {
     

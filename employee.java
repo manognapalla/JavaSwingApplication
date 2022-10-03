@@ -52,11 +52,11 @@ public class employee {
         this.gender = gender;
     }
 
-    public String getStartdate() {
+    public int getStartdate() {
         return startdate;
     }
 
-    public void setStartdate(String startdate) {
+    public void setStartdate(int startdate) {
         this.startdate = startdate;
     }
 
@@ -84,11 +84,11 @@ public class employee {
         this.positiontitle = positiontitle;
     }
 
-    public String getCellphone() {
+    public int getCellphone() {
         return cellphone;
     }
 
-    public void setCellphone(String cellphone) {
+    public void setCellphone(int cellphone) {
         this.cellphone = cellphone;
     }
 
@@ -101,29 +101,12 @@ public class employee {
     }
 
     public void setStartDate(String startdate) {
-       
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     public void setCellPhone(String cellphone) {
-      
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-   
-    @Override
-    public String toString(){
-      return name;
-  }
-
-    public Object getstartdate() {
-       
-        return null;
-       
-    }
-
-    public Object getcellphone() {
-        
-        return null;
-        
-    }
     
 }
