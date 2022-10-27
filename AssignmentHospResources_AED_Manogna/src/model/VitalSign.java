@@ -55,8 +55,11 @@ public class VitalSign {
     }
     
     @Override
+    
     public String toString() {
         SimpleDateFormat ft = new SimpleDateFormat("MM/dd/yyyy 'at' hh:mm:ss a");
         return ft.format(timestamp);
     }
+
+    
 }
