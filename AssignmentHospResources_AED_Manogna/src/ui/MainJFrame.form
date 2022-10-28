@@ -248,6 +248,10 @@
                                   <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                               </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" pref="382" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                           <EmptySpace pref="43" max="32767" attributes="0"/>
                       </Group>
@@ -277,7 +281,9 @@
                           <Component id="btnLogin" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
                           <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="384" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" pref="106" max="-2" attributes="0"/>
+                          <EmptySpace pref="260" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -363,6 +369,14 @@
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel3">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="image"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="Image img = new ImageIcon(this.getClass().getResource(&quot;loginimage.jpg&quot;)).getImage();&#xa;label.setIcon(new ImageIcon(img));"/>
+                  </AuxValues>
                 </Component>
               </SubComponents>
             </Container>
