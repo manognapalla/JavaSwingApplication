@@ -21,20 +21,7 @@ public class Person {
     private boolean hasVitalSigns;
     private String doctor;
 
-//    public Person() {
-//    }
-//
-//    public Person(String personName, int age, Patient patient, int weight, String community, String address, String city, boolean hasVitalSigns, String doctor) {
-//        this.personName = personName;
-//        this.age = age;
-//        this.patient = patient;
-//        this.weight = weight;
-//        this.community = community;
-//        this.address = address;
-//        this.city = city;
-//        this.hasVitalSigns = hasVitalSigns;
-//        this.doctor = doctor;
-//    }
+
 
     public int getWeight() {
         return weight;

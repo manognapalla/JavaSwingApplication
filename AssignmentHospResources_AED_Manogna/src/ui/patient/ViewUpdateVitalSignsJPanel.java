@@ -84,7 +84,7 @@ public class ViewUpdateVitalSignsJPanel extends javax.swing.JPanel {
 
         jLabel4.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel4.setText("Weight in pounds:");
+        jLabel4.setText("Weight:");
 
         backJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         backJButton.setText("<");
