@@ -31,7 +31,35 @@ public class PersonDirectory {
     public void deletePerson(Person person) {
         personDirectory.remove(person);
     }
+    public ArrayList<Person> searchPatient(String key)
+    {
+        ArrayList<Person> searchPatientDirectory = new ArrayList();
+        for(Person person: personDirectory)
+        {
+            if(person.getPersonName().toLowerCase().startsWith(key.toLowerCase()))
+            {
+                if(person.getPatient()!=null)
+                {
+                    searchPatientDirectory.add(person);
+                }
+            }
+        }
+        return searchPatientDirectory;
+    }
     
+    public ArrayList<Person> searchPerson(String key)
+    {
+        ArrayList<Person> searchPersonDirectory = new ArrayList();
+        for(Person person: personDirectory)
+        {
+            if(person.getPersonName().toLowerCase().startsWith(key.toLowerCase()))
+            {
+                searchPersonDirectory.add(person);
+            }
+        }
+        return searchPersonDirectory;
+    }
+
    
     
     
