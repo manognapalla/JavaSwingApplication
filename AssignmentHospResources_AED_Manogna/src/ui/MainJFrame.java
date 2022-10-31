@@ -64,7 +64,6 @@ public class MainJFrame extends javax.swing.JFrame {
         btnLogin = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(700, 500));
@@ -228,10 +227,7 @@ public class MainJFrame extends javax.swing.JFrame {
                                     .addComponent(txtPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(42, 42, 42)
-                        .addComponent(jLabel3))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(58, 58, 58)
-                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 440, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jLabel3)))
                 .addContainerGap(43, Short.MAX_VALUE))
         );
 
@@ -258,15 +254,10 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addComponent(btnLogin)
                 .addGap(44, 44, 44)
                 .addComponent(jLabel3)
-                .addGap(34, 34, 34)
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(144, Short.MAX_VALUE))
+                .addContainerGap(384, Short.MAX_VALUE))
         );
 
         jPanel1Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jLabel2, lblPassword, lblUsername, txtPassword, txtUsername});
-
-        Image img = new ImageIcon(this.getClass().getResources("loginimage.jpg")).getImage();
-        label.setIcon(new ImageIcon(img));
 
         userProcessContainer.add(jPanel1, "card2");
 
@@ -492,7 +483,6 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JSplitPane jSplitPane1;
     private javax.swing.JLabel lblPassword;

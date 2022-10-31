@@ -248,10 +248,6 @@
                                   <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
-                                  <Component id="jLabel4" min="-2" pref="440" max="-2" attributes="0"/>
-                              </Group>
                           </Group>
                           <EmptySpace pref="43" max="32767" attributes="0"/>
                       </Group>
@@ -281,9 +277,7 @@
                           <Component id="btnLogin" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
                           <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                          <Component id="jLabel4" min="-2" pref="206" max="-2" attributes="0"/>
-                          <EmptySpace pref="144" max="32767" attributes="0"/>
+                          <EmptySpace pref="384" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -369,12 +363,6 @@
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel3">
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel4">
-                  <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="Image img = new ImageIcon(this.getClass().getResources(&quot;loginimage.jpg&quot;)).getImage();&#xa;label.setIcon(new ImageIcon(img));"/>
-                    <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JLabel()"/>
-                  </AuxValues>
                 </Component>
               </SubComponents>
             </Container>
