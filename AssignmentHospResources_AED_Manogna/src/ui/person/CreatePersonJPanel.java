@@ -80,22 +80,22 @@ public class CreatePersonJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Create Person Profile");
 
-        patientNameJLabel.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        patientNameJLabel.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         patientNameJLabel.setForeground(new java.awt.Color(255, 255, 255));
         patientNameJLabel.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         patientNameJLabel.setText("Person Name: ");
 
-        AgeJLabel.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        AgeJLabel.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         AgeJLabel.setForeground(new java.awt.Color(255, 255, 255));
         AgeJLabel.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         AgeJLabel.setText("Age : ");
 
-        backJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        backJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 14)); // NOI18N
         backJButton.setText("<");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,7 +103,7 @@ public class CreatePersonJPanel extends javax.swing.JPanel {
             }
         });
 
-        weightjLabel.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        weightjLabel.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         weightjLabel.setForeground(new java.awt.Color(255, 255, 255));
         weightjLabel.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         weightjLabel.setText("Weight: ");
@@ -114,12 +114,12 @@ public class CreatePersonJPanel extends javax.swing.JPanel {
             }
         });
 
-        addressjLabel.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        addressjLabel.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         addressjLabel.setForeground(new java.awt.Color(255, 255, 255));
         addressjLabel.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         addressjLabel.setText("Address:");
 
-        cityjLabel.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        cityjLabel.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         cityjLabel.setForeground(new java.awt.Color(255, 255, 255));
         cityjLabel.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         cityjLabel.setText("City:");
@@ -127,7 +127,7 @@ public class CreatePersonJPanel extends javax.swing.JPanel {
         personCityJTextField.setEditable(false);
         personCityJTextField.setText("Boston");
 
-        personCommunityJTextField.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        personCommunityJTextField.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         personCommunityJTextField.setForeground(new java.awt.Color(255, 255, 255));
         personCommunityJTextField.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         personCommunityJTextField.setText("Community:");
@@ -139,12 +139,12 @@ public class CreatePersonJPanel extends javax.swing.JPanel {
             }
         });
 
-        personCommunityJTextField1.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        personCommunityJTextField1.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         personCommunityJTextField1.setForeground(new java.awt.Color(255, 255, 255));
         personCommunityJTextField1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         personCommunityJTextField1.setText("Hospital:");
 
-        personCommunityJTextField2.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        personCommunityJTextField2.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         personCommunityJTextField2.setForeground(new java.awt.Color(255, 255, 255));
         personCommunityJTextField2.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         personCommunityJTextField2.setText("Doctor:");
@@ -184,14 +184,17 @@ public class CreatePersonJPanel extends javax.swing.JPanel {
                             .addComponent(personCityJTextField)
                             .addComponent(personCommunityjComboBox, 0, 150, Short.MAX_VALUE)
                             .addComponent(listHospital, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(listDoctors, javax.swing.GroupLayout.Alignment.TRAILING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(addPersonJButton))
+                            .addComponent(listDoctors, javax.swing.GroupLayout.Alignment.TRAILING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(0, 143, Short.MAX_VALUE))
                     .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(backJButton)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(addPersonJButton)
+                .addGap(246, 246, 246))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -232,9 +235,9 @@ public class CreatePersonJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(personCommunityJTextField2)
                     .addComponent(listDoctors, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(43, 43, 43)
                 .addComponent(addPersonJButton)
-                .addGap(139, 139, 139))
+                .addGap(284, 284, 284))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -251,7 +254,7 @@ public class CreatePersonJPanel extends javax.swing.JPanel {
             person.setCity(personCityJTextField.getText());
             person.setAddress(personAddressJTextField.getText());
             
-            JOptionPane.showMessageDialog(this, "Person added!!", "Update",
+            JOptionPane.showMessageDialog(this, "Person is added", "Update",
                     JOptionPane.INFORMATION_MESSAGE);
             clearFields();
         }
@@ -296,25 +299,25 @@ public class CreatePersonJPanel extends javax.swing.JPanel {
         if(personCommunityjComboBox.getSelectedItem().equals("Roxbury"))
         {
             listHospital.removeAllItems();
-            listHospital.addItem("NEU Hospital");
-            listHospital.addItem("Mass Hospital");
-            listHospital.addItem("Boston Hospital");
+            listHospital.addItem("Roxbury Hospital");
+            listHospital.addItem("Alphonsus Hospital");
+            listHospital.addItem("Tremont Hospital");
         }
         else
         {
             if(personCommunityjComboBox.getSelectedItem().equals("Fenway"))
             {
                 listHospital.removeAllItems();
-                listHospital.addItem("ABC Hospital");
-                listHospital.addItem("XYZ Hospital");
-                listHospital.addItem("PQR Hospital");
+                listHospital.addItem("Park drive Hospital");
+                listHospital.addItem("Boylston Hospital");
+                listHospital.addItem("Boylston 99 Hospital");
             }
             else
             {
                 listHospital.removeAllItems();
-                listHospital.addItem("UHCS Hospital");
-                listHospital.addItem("Dhirubhai Hospital");
-                listHospital.addItem("BMC Hospital");
+                listHospital.addItem("Northeastern Hospital");
+                listHospital.addItem("Framingham Hospital");
+                listHospital.addItem("Symphony Hospital");
             }
         }
     }//GEN-LAST:event_personCommunityjComboBoxActionPerformed

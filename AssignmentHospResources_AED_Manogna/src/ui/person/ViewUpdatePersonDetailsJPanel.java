@@ -179,7 +179,7 @@ public class ViewUpdatePersonDetailsJPanel extends javax.swing.JPanel {
         if (checkBlankInput()) {
             person.setAge(Integer.parseInt(personAgeJTextField.getText()));
             person.setPersonName(personNameJTextField.getText());
-            JOptionPane.showMessageDialog(this, "Person updated!!",
+            JOptionPane.showMessageDialog(this, "Person updated",
                     "Update", JOptionPane.INFORMATION_MESSAGE);
             modifyTextFields(false);
         } else {
