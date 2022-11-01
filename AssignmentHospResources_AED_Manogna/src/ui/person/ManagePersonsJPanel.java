@@ -82,7 +82,7 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(204, 153, 255));
 
-        searchPersonJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        searchPersonJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         searchPersonJButton.setText("Search Person By Name");
         searchPersonJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,7 +90,7 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
             }
         });
 
-        backJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        backJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         backJButton.setText("<");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,7 +98,7 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
             }
         });
 
-        refreshJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        refreshJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         refreshJButton.setText("Refresh");
         refreshJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -125,11 +125,11 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(viewPersonsJTable);
 
-        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Persons Directory");
 
-        editPersonJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        editPersonJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         editPersonJButton.setText("Update Person");
         editPersonJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -137,7 +137,7 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
             }
         });
 
-        viewPersonJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        viewPersonJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         viewPersonJButton.setText("View Person");
         viewPersonJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -145,7 +145,7 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
             }
         });
 
-        deletePersonJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        deletePersonJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         deletePersonJButton.setText("Delete Person");
         deletePersonJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -153,7 +153,7 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
             }
         });
 
-        createPersonJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        createPersonJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         createPersonJButton.setText("Create Person");
         createPersonJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -209,7 +209,7 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(searchPersonJButton)
                     .addComponent(searchBoxJTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(207, Short.MAX_VALUE))
+                .addContainerGap(219, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

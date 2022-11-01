@@ -70,19 +70,19 @@ public class ViewUpdatePersonDetailsJPanel extends javax.swing.JPanel {
         setMinimumSize(new java.awt.Dimension(500, 700));
         setPreferredSize(new java.awt.Dimension(500, 700));
 
-        AgeJLabel.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        AgeJLabel.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         AgeJLabel.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         AgeJLabel.setText("Age:");
 
-        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Patient Details");
 
-        patientNameJLabel.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        patientNameJLabel.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         patientNameJLabel.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         patientNameJLabel.setText("Patient Name:");
 
-        backJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        backJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         backJButton.setText("<");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,7 +90,7 @@ public class ViewUpdatePersonDetailsJPanel extends javax.swing.JPanel {
             }
         });
 
-        editJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        editJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         editJButton.setText("Edit");
         editJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,7 +98,7 @@ public class ViewUpdatePersonDetailsJPanel extends javax.swing.JPanel {
             }
         });
 
-        saveJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        saveJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         saveJButton.setText("Save");
         saveJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
