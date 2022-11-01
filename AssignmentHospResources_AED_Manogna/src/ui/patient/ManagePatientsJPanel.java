@@ -116,12 +116,12 @@ public class ManagePatientsJPanel extends javax.swing.JPanel {
         }
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Patients");
 
-        editPatientJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        editPatientJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         editPatientJButton.setText("Update Patient");
         editPatientJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -129,7 +129,7 @@ public class ManagePatientsJPanel extends javax.swing.JPanel {
             }
         });
 
-        viewPatientJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        viewPatientJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         viewPatientJButton.setText("View Patient");
         viewPatientJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -137,7 +137,7 @@ public class ManagePatientsJPanel extends javax.swing.JPanel {
             }
         });
 
-        deletePatientJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        deletePatientJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         deletePatientJButton.setText("Delete Patient");
         deletePatientJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,15 +147,15 @@ public class ManagePatientsJPanel extends javax.swing.JPanel {
 
         searchBoxJTextField.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
 
-        searchPatientJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        searchPatientJButton.setText("Search Patient");
+        searchPatientJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
+        searchPatientJButton.setText("Search Patient By Name");
         searchPatientJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 searchPatientJButtonActionPerformed(evt);
             }
         });
 
-        backJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        backJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         backJButton.setText("<");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -163,7 +163,7 @@ public class ManagePatientsJPanel extends javax.swing.JPanel {
             }
         });
 
-        refreshJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        refreshJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         refreshJButton.setText("Refresh");
         refreshJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -171,7 +171,7 @@ public class ManagePatientsJPanel extends javax.swing.JPanel {
             }
         });
 
-        createPatientJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        createPatientJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         createPatientJButton.setText("Create Patient");
         createPatientJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

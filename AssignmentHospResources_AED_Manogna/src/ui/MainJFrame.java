@@ -70,7 +70,7 @@ public class MainJFrame extends javax.swing.JFrame {
         leftJPanel.setMinimumSize(new java.awt.Dimension(200, 700));
         leftJPanel.setPreferredSize(new java.awt.Dimension(200, 700));
 
-        patientManagerJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        patientManagerJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         patientManagerJButton.setText("Patients Directory");
         patientManagerJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -78,7 +78,7 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-        managePersonsJButton.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        managePersonsJButton.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         managePersonsJButton.setText("Person Directory");
         managePersonsJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,7 +86,7 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-        btnDashboard.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        btnDashboard.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         btnDashboard.setText("Community Dashboard");
         btnDashboard.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -94,11 +94,11 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Select");
+        jLabel1.setText("Access Panel");
 
-        btnEncounter.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        btnEncounter.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         btnEncounter.setText("Encounter Details");
         btnEncounter.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -106,7 +106,7 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-        btnDirectory.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        btnDirectory.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         btnDirectory.setText("Patients Details");
         btnDirectory.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -159,10 +159,10 @@ public class MainJFrame extends javax.swing.JFrame {
         jPanel1.setMinimumSize(new java.awt.Dimension(600, 500));
         jPanel1.setPreferredSize(new java.awt.Dimension(600, 500));
 
-        lblTitle.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
+        lblTitle.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 24)); // NOI18N
         lblTitle.setForeground(new java.awt.Color(255, 255, 255));
         lblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblTitle.setText("Login Screen");
+        lblTitle.setText("Welcome to YourHospital App, please Login!");
 
         userType.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "System Admin", "Hospital Admin", "Community Admin", "Doctor", "Person Login" }));
         userType.addActionListener(new java.awt.event.ActionListener() {
@@ -171,15 +171,15 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-        lblUsername.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        lblUsername.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         lblUsername.setForeground(new java.awt.Color(255, 255, 255));
         lblUsername.setText("Username");
 
-        lblPassword.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        lblPassword.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         lblPassword.setForeground(new java.awt.Color(255, 255, 255));
         lblPassword.setText("Password");
 
-        btnLogin.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        btnLogin.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         btnLogin.setText("Login");
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -187,7 +187,7 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Login As:");
 
@@ -242,7 +242,7 @@ public class MainJFrame extends javax.swing.JFrame {
                     .addComponent(lblPassword))
                 .addGap(18, 18, 18)
                 .addComponent(btnLogin)
-                .addContainerGap(427, Short.MAX_VALUE))
+                .addContainerGap(428, Short.MAX_VALUE))
         );
 
         jPanel1Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jLabel2, lblPassword, lblUsername, txtPassword, txtUsername});

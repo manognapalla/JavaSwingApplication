@@ -165,7 +165,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
             patient.setPrefferedPharmacy(prefferedPharmacyJTextField.getText());
             //Adding Patient to Person
             person.setPatient(patient);
-            JOptionPane.showMessageDialog(this, "Patient added!!", "Update", 
+            JOptionPane.showMessageDialog(this, "Patient added", "Update", 
                     JOptionPane.INFORMATION_MESSAGE);
             clearFields();
         }
