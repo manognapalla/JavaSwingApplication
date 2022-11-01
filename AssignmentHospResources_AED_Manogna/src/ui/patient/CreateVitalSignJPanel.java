@@ -93,7 +93,7 @@ public class CreateVitalSignJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel5.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("Enter Vital Signs");
@@ -183,7 +183,7 @@ public class CreateVitalSignJPanel extends javax.swing.JPanel {
             vitalSign.setWeight(weight);
             /*Set current date and time as TimeStamp*/
             vitalSign.setTimestamp(new Date());
-            JOptionPane.showMessageDialog(this, "Vital signs added!!", "Update",
+            JOptionPane.showMessageDialog(this, "Vital signs added", "Update",
                     JOptionPane.INFORMATION_MESSAGE);
             clearFields();
         } catch (Exception ex) {
